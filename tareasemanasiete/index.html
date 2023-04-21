@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chile Limpio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    
+    <div class="" id="formulario">
+        <h1>Formulario.</h1>
+      <form action="" class="">
+        <input type="text" name="rut" id="rut" placeholder="Rut" />
+        <br />
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+        <br />
+        <input
+          type="text"
+          name="appaterno"
+          id="appaterno"
+          placeholder="Apellido Paterno"
+        />
+        <br />
+        <input
+          type="text"
+          name="apmaterno"
+          id="apmaterno"
+          placeholder="Apellido Materno"
+        />
+        <br />
+        <input type="number" name="edad" id="edad" placeholder="Edad" />
+        <br />
+        <input
+          type="number"
+          name="telefono"
+          id="celular"
+          placeholder="Telefono"
+        />
+        <select name="genero" id="genero">
+          <option value="valor0" selected="selected">Seleccione.</option>
+          <option value="valor1">Masculino</option>
+          <option value="valor2">Femenino</option>
+          <option value="valor3">Otro</option>
+          <option value="valor4">Prefiero no decir</option>
+        </select>
+        <br />
+
+        <button type="submit">Enviar</button>
+        <button type="button" disabled  id="botonCarta">Crear carta</button>
+        <br>
+
+        <textarea name=""  cols="30" rows="10" id="carta" disabled hidden></textarea>
+
+
+      </form>
+    </div>
+    <script src="js/util.js"></script>
+  </body>
+</html>
